@@ -1,0 +1,17 @@
+
+.deplacer{
+    position: absolute;
+    top: -200%;
+}
+
+div .item1 {
+    display: none;
+}
+    
+a:hover + div {
+    display: block;
+}
+
+.itemOne:hover + item1{
+    display: none;
+}
