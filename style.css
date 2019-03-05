@@ -1,7 +1,8 @@
 
 .deplacer{
     position: absolute;
-    top: -200%;
+    top: -220%;
+    z-index: 1;
 }
 
 div .item1 {
