@@ -1,0 +1,39 @@
+    /***COULEURS BOUTONS***/
+.btn{background:#996840;
+    box-shadow:#3f2d0b 0 0 5px inset;
+color:#dbdbdb;}
+
+.btn:hover{background:#996840;
+    box-shadow:#3f2d0b 0 0 15px inset;
+    transition:1s;
+    color:#e9e8e8;
+    text-shadow:#e9e8e8 0 2px 2;
+    letter-spacing:1px;}
+    /**FIN COULEURS BOUTONS***/
+
+    /***COULEUR SELECTION TEXTE***/
+::selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-moz-selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-webkit-selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-htm-selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-o-selection{
+background: #af631cbd;
+    color: #bfbfbf;
+}
+/***FIN COULEUR SÉLECTION TEXTE***/
