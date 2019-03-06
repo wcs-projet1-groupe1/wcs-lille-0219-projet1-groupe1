@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+}
+
+#Description p::first-letter, #History p::first-letter{
+    font-weight:bold;
+    font-size: 150%;
+}
+
+#nav{
+    list-style-type:none;
+    text-decoration:none;
+    }
+
+a:visited {
+    color: #384982;
+    }
+      
+a:hover {
+    color: h#384982;
+    list-style-type:none;
+    text-decoration:none;
+    font-weight:bold;
+    }
+      
+a:active {
+    color: #384982;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+@media (max-width: 1400px) {
+    .naveura {
+      display: none;
+    }
+  }

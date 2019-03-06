@@ -8,7 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!--CSS for Euratech-->
+    <link rel="stylesheet" href="euratech.css" />
+
+    <title>Euratechnologies</title>
   </head>
   <body>
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -55,14 +58,18 @@
         </nav>
 
 <!--partie sur Euratechnologies-->
-        <nav class="position-fixed">
-          <ul>
-          <li><a href="#Description">Description</a></li>
-          <li><a href="#History">History</a></li>
-          <li><a href="#Operations">Operations</a></li>
-          <li><a href="#Opportunities">Opportunities</a></li>
+        <nav class="position-fixed naveura">
+          <ul id="nav">
+            <li><a href="#Description">Description</a></li>
+              <br>
+            <li><a href="#History">History</a></li>
+              <br>
+            <li><a href="#Operations">Operations</a></li>
+              <br>
+            <li><a href="#Opportunities">Opportunities</a></li>
           </ul>
         </nav>
+
           <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -97,6 +104,7 @@
             <br>
         <section id="Description">
           <h3>Description</h3>
+            <br>
             <p>Born in 2009 in Lille, <b>Euratechnologies</b> is the center of excellence and digital innovation of French Tech. First incubator and accelerator of startups in France and ranked in the top 3 in Europe, Euratechnologies accompanies the development of all its companies. From support to international deployment, it contributes to its success. Let’s talk about numbers, Euratechnologies has :</p>
               <ul>
                 <li>more than 300 companies</li>
@@ -109,58 +117,90 @@
           <br>
           <section id="History">
             <h3>History</h3>
+              <br>
               <p>Stem from the rehabilitation and merging of the two textile companies Le Blan and Lafont, Euratechnologies has large premises with rich history. Following cotton industry’s crisis, the two factories filed for bankruptcy in 1996. In 1998, <i>the Lille Urban Community</i> decided to launch a conversion project called Euratechnologie. It will be inaugurated on March 26, 2009.</p>
           </section>
             <br>
           <section id="Operations">
             <h3>Operations</h3>
-              <p>Pillar of the Euratechnologies’s ecosystem, web and marketing training are welcomed within the premises. Training centers and schools offer short courses such as long, which are graduating, qualifying or certifying.</p>
-                <div>
-              <p>More information : <a href="https://en.euratechnologies.com/training/"><img src="https://i.postimg.cc/Bv06YBKr/index.jpg" alt= "bag"/></a></p>
+              <br>
+                <div class="card">
+                  <h5 class="card-header">Training by Euratech</h5>
+                  <div class="card-body">
+                    <p class="card-text">Pillar of the Euratechnologies’s ecosystem, web and marketing training are welcomed within the premises. Training centers and schools offer short courses such as long, which are graduating, qualifying or certifying.</p>
+                    <div class="float-right">
+                    <p>More information : <a href="https://en.euratechnologies.com/training/"><img src="https://i.postimg.cc/B6dJDGHG/Collage-formation.jpg" alt= "bag"/></a></p>
+                      </div>
+                  </div>
                 </div>
         </section>
           <br>
         <section>
-          <p>With incubation program to pass the idea to the prototype in 80 days, <i>Start by Euratech</i> is an ideal accompaniment for young entrepreneurs. It includes about fifteen thematic workshops, entrepreneurs meetings, individualized coaching, entrepreneurs sponsorship and access to technology partner offers.</p>
-            <div>
-          <p>More information : <a href="https://www.euratechnologies.com/incubation-start-entrepreneurs-ideation-concept/"><img src="https://i.imgur.com/gHnhueC.jpg" alt= "start_by_Euratech"/></a></p>
+            <div class="card">
+              <h5 class="card-header">Start by Euratech</h5>
+              <div class="card-body">
+                <p class="card-text">With incubation program to pass the idea to the prototype in 80 days, <i>Start by Euratech</i> is an ideal accompaniment for young entrepreneurs. It includes about fifteen thematic workshops, entrepreneurs meetings, individualized coaching, entrepreneurs sponsorship and access to technology partner offers.</p>
+                <div class="float-left">
+                  <p>More information : <a href="https://www.euratechnologies.com/incubation-start-entrepreneurs-ideation-concept/"><img src="https://i.imgur.com/gHnhueC.jpg" alt= "start_by_Euratech"/></a></p>                  </div>
+              </div>
             </div>
         </section>
           <br>
         <section>
-          <p>In business support, Euratechnologies has created the <i>Scale by EuraTech</i> acceleration program. It consists of a 9-month program divided into two parts :</p>
-            <ul>
-              <li>3 months on the strategy and structure of the company</li>
-              <li>6 months on the "go-to-market" to work sales, negotiation, marketing, …</li>
-            </ul>
-          <p>It also provides young entrepreneurs with a vast network within the digital ecosystem.</p>
-            <div>
-          <p>More information : <a href="http://www.scale.euratechnologies.com/"><img src="https://i.postimg.cc/prJSYxKh/scale-euratechnologies-programme-acceleration-startup-btob.jpg" alt= "scale_by_Euratech"/></a></p>
+            <div class="card">
+              <h5 class="card-header">Scale by Euratech</h5>
+              <div class="card-body">
+                <p class="card-text">In business support, Euratechnologies has created the <i>Scale by EuraTech</i> acceleration program. It consists of a 9-month program divided into two parts :
+                  <ul>
+                    <li>3 months on the strategy and structure of the company</li>
+                    <li>6 months on the "go-to-market" to work sales, negotiation, marketing, …</li>
+                  </ul>
+                  It also provides young entrepreneurs with a vast network within the digital ecosystem.
+                </p>
+                <div class="float-right">
+                  <p>More information : <a href="http://www.scale.euratechnologies.com/"><img src="https://i.postimg.cc/prJSYxKh/scale-euratechnologies-programme-acceleration-startup-btob.jpg" alt= "scale_by_Euratech"/></a></p>                  </div>
+              </div>
             </div>
         </section>
           <br>
         <section>
-          <p>Once the company are launched, it is possible to settle within the premises of Euratechnologies through the program <i>Grow by Euratech</i>. Available spaces range from 24 m2 up to 5 ha. Companies benefit from several shared services such as meeting rooms, data centers, auditorium, conference rooms, etc.</p>
-            <div>
-          <p>More information : <a href="https://en.euratechnologies.com/business-center/"><img src="https://i.postimg.cc/ryZxs3BQ/grow-euratechnologies-offre-immobiliere-coworking-wellworking-re.jpg" alt= "grow_by_Euratech"/></a></p>
+            <div class="card">
+              <h5 class="card-header">Grow by Euratech</h5>
+              <div class="card-body">
+                <p class="card-text">Once the company are launched, it is possible to settle within the premises of Euratechnologies through the program <i>Grow by Euratech</i>. Available spaces range from 24 m2 up to 5 ha. Companies benefit from several shared services such as meeting rooms, data centers, auditorium, conference rooms, etc.</p>
+                <div class="float-left">
+                  <p>More information : <a href="https://en.euratechnologies.com/business-center/"><img src="https://i.postimg.cc/ryZxs3BQ/grow-euratechnologies-offre-immobiliere-coworking-wellworking-re.jpg" alt= "grow_by_Euratech"/></a></p>
+                </div>
             </div>
         </section>
           <br>
         <section id="Opportunities">
             <h3>Opportunities</h3>
-              <p>Dedicated to children aged 6 to 15, <i>EuraTech'Kids</i> is a set of introductory workshops on coding and robotics. They are an opportunity to introduce children to the field of digital possibilities. The sessions take place during the year and the school holidays.</p>
-                <div>
-              <p>Find EuraTech'Kids : <a href="https://www.euratechnologies.com/agenda/euratechkids-coding-robotique-creativite/"><img src="https://i.postimg.cc/SRVHWkpT/34429.png" alt= "robot"/></a>.</p>
+              <br>
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">Dedicated to children aged 6 to 15, <i>EuraTech'Kids</i> is a set of introductory workshops on coding and robotics. They are an opportunity to introduce children to the field of digital possibilities. The sessions take place during the year and the school holidays.</p>
+                    <div class="float-right">
+                      <p>Find EuraTech'Kids : <a href="https://www.euratechnologies.com/agenda/euratechkids-coding-robotique-creativite/"><img src="https://i.postimg.cc/SRVHWkpT/34429.png" alt= "robot"/></a>.</p>
+                    </div>
+                  </div>
                 </div>
         </section>
           <br>
         <section>
-          <p>With many opportunities and an ideal setting, <b>Euratechnologies</b> is a place of excellence and innovation essential to Lille's metropolis. If you are looking for training, a job or even an internship, you can find everything you need.</p>
-            <div>
-          <p>Find the Euratechnologies website : <a href="https://en.euratechnologies.com/"><img src="https://i.postimg.cc/L4Nxmy4V/mn-NAb-Mb-N-400x400.jpg" alt= "logo"/></a></p>
-            </div>
+            <div class="card">
+                <div class="card-body">
+                  <p class="card-text">With many opportunities and an ideal setting, <b>Euratechnologies</b> is a place of excellence and innovation essential to Lille's metropolis. If you are looking for training, a job or even an internship, you can find everything you need.</p>
+                  <div class="float-left">
+                      <p>Find the Euratechnologies website : <a href="https://en.euratechnologies.com/"><img src="https://i.postimg.cc/L4Nxmy4V/mn-NAb-Mb-N-400x400.jpg" alt= "logo"/></a></p>
+                    </div>
+                </div>
+              </div>
         </section>
+
         </article>
+
+
     <footer id="foot">
     
       <div class="row m text-white bg-dark">
