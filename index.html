@@ -5,56 +5,59 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans" rel="stylesheet">
   <title>Home</title>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#"></a>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">T.A.M.B.A.S</a>
+  
+    <button class="navbar-toggler hamber" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+  
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
+          <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink1">
+            <a class="dropdown-item dropc" href="presentation.html">Presentation</a>
+            <a class="dropdown-item dropc" href="companies.html">Companies</a>
+            <a class="dropdown-item dropc" href="services.html">Services</a>
+          </div>
+        </li>
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
+          <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink2">
+            <a class="dropdown-item dropc" href="eurasante.html">Eurasanté</a>
+            <a class="dropdown-item dropc" href="laplaineimages.html">La plaine images</a>
+            <a class="dropdown-item dropc" href="creinnov.html">Cré'innov</a>
+            <a class="dropdown-item dropc" href="agtech.html">Agtech</a>
+          </div>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-          <a class="dropdown-item" href="#">Presentation</a>
-          <a class="dropdown-item" href="#">Entreprises</a>
-          <a class="dropdown-item" href="#">Services</a>
-        </div>
-      </li>
-
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-          <a class="dropdown-item" href="#">pole 1</a>
-          <a class="dropdown-item" href="#">pole 2</a>
-          <a class="dropdown-item" href="#">pole 3</a>
-          <a class="dropdown-item" href="#">pole 4</a>
-        </div>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">Galerie</a>
-      </li>
-      
-    </ul>
-  </div>
-</nav>
-
+<div class="content">
 <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       
@@ -89,15 +92,15 @@
 </div>
 <div class="container">
   <blockquote class="blockquote">
-    <hr>
-    <h1>Lille is French Tech</h1>
     <br>
-    <h3>EuraTechnologies totem of labeling "Lille is French Tech"</h3>
+    <h1>Lille is French Tech :</h1>
+    <br>
+    <h3>EuraTechnologies totem of labeling "Lille is French Tech".</h3>
     <p>
       Launched in January 2014, the call for certification "Métropole French Tech" (originally "digital neighborhoods") is aimed at French cities who want to mobilize and federate local stakeholders around an ambitious project to grow their ecosystem , in order to make it in a few years a flagship and internationally recognized place for its entrepreneurial dynamism and to position France as a true "startup nation" with global reach.
     </p>
     <br>
-    <h3>Lille, a natural choice</h3>
+    <h3>Lille, a natural choice.</h3>
     <p>
       It is by its privileged geographical position in the heart of Europe between Paris, London, Brussels and Amsterdam, that the French Tech Lille takes all its dimension.<br>
 
@@ -121,33 +124,48 @@
     <footer class="blockquote-footer">Source from <cite title="Source Title">https://www.euratechnologies.com</cite></footer>
   </blockquote>
 </div>
-
-<footer id="foot" class="container-fluid">  
-  <div class="row m text-white bg-dark">
-    <div class="col-4">
-      <div class="p-3 text-white bg-dark">
-        <a href="Presentations.html" class="text-white bg-dark">Presentation</a><br>
-        <a href="Services.html" class="text-white bg-dark">Services</a><br>
-        <a href="#Entreprise.html" class="text-white bg-dark">Entreprise</a>
+<br>
+<footer id="footerc" class="container-fluid">  
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <div class="p-3 acolor">
+          <a href="index.html">Home</a><br>
+          <a href="presentation.html">Euratech</a>
+        </div>
       </div>
+  
+      <div class="col-3">
+        <div class="p-3  acolor">
+          <a href="eurasante.html">Eurasanté</a><br>
+          <a href="laplaineimages.html">La plaine images</a>
+        </div>
+      </div>
+
+      <div class="col-2">
+          <div class="p-3  acolor">
+            <a href="creinnov.html">Cré'innov</a><br>
+            <a href="agtech.html">Agtech</a>
+          </div>
+        </div>
+  
+      <div class="col-2">
+        <div class="p-3  acolor">
+            <a href="gallery.html">Gallery</a><br>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="col-3">
+          <div class="p-3  acolor">
+            <a href="https://wildcodeschool.fr/lille-2/">Wild Code School - Lille</a>
+          </div>
+        </div>   
     </div>
-
-    <div class="col-4">
-      <div class="p-3  text-white bg-dark">
-        <a href="home.html" class="text-white bg-dark">home</a><br>
-        <a href="Gallery.html" class="text-white bg-dark">Gallery</a>
-      </div>
     </div>
+  </footer>
+</div>
 
-    <div class="col-4">
-      <div class="p-3  text-white bg-dark">
-        <a href="Contact.html" class="text-white bg-dark">Contact</a><br>
-        <a href="https://wildcodeschool.fr/lille-2/" class="text-white bg-dark">Wild Code School - Lille</a><br>
-      </div>
-    </div>         
-  </div>
-</footer>
-
+<script src="index.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
