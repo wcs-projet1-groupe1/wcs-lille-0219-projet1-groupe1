@@ -71,6 +71,7 @@
         margin-top:20px;
         margin-bottom:10px;
         height: 80vh;
+        overflow: auto;
     }
 
     label{color:#404040!important;}
@@ -106,9 +107,7 @@
       }
     @media screen and (min-width:768px){
         a:hover{letter-spacing:0px;}
-        .contact{
-            overflow: hidden;
-        }
+        
       }
       
     @media screen and (min-width:992px){
