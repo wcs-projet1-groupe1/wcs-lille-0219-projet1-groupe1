@@ -3,29 +3,10 @@
     position: absolute;
     top: -220%;
     z-index: 1;
-}
-
-div .item1 {
-    /*display: none;*/
     visibility:hidden;
 }
-    
-a:hover + div {
-    display: block;
-}
 
-.itemOne:hover + item1{
-    display: none;
-}
-
-.hover-link{
-    width: 10%;
-}
-
-.show-button{
-    width: 28px;
-    height: 28px;
-    border: 1px solid black;
-    border-radius: 2px;
-    padding: 2px;
+.cross{
+    position: absolute;
+    right:0%;
 }
