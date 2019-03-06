@@ -12,3 +12,124 @@
 i{
     font-size: 1.6em;
 }
+
+@font-face {
+    font-family: 'oswald';
+    src: url('oswald.eot');
+    src: url('oswald.otf') format('truetype'),
+         url('oswald.woff') format('woff'),
+         url('oswald.eot?#iefix') format('embedded-opentype'),
+         url('oswald.svg#QuadrantaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    a {
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        color:#384982;
+      }
+      
+      a:hover {
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+      }
+      
+      a:link,a:active,a:visited{
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+      }
+    /***COULEURS DE BASES***/
+body{
+    background:#E3E3E3 !important;
+}
+
+nav{
+    background:#996840;
+}
+
+nav a{
+
+    color: #fdfdfd !important;
+}
+
+footer a{
+
+    color: #fdfdfd !important;
+}
+
+footer{
+    background:#996840 !important;
+}   
+title{
+    color:#384982;
+}
+
+   /***COULEURS BOUTONS***/
+.btn{
+    background:#996840 !important;
+    box-shadow:#3f2d0b 0 0 5px inset;
+    color:#DBDBDB !important;
+}
+
+.btn:hover{
+    background:#996840;
+    box-shadow:#3f2d0b 0 0 15px inset;
+    transition:1s;
+    color:#fdfdfd;
+    text-shadow:#fdfdfd 0 0 2px;
+    letter-spacing:1px;
+}
+    /**FIN COULEURS BOUTONS***/
+
+    /***COULEUR SELECTION TEXTE***/
+::selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-moz-selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-webkit-selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-htm-selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+
+::-o-selection{
+    background: #af631cbd;
+    color: #bfbfbf;
+}
+/***FIN COULEUR SÉLECTION TEXTE***/
+
+.cardright-img{
+    float:right;
+    width:275px;
+    height:225px;
+}
+
+.card-img{    
+    width:275px;
+    height:225px;}
+
+.titre_caté1{
+    font-family:oswald, sans-serif;
+    font-size:35px;
+    text-align:left;
+    color:#384982;
+}
+.titre_caté2{ 
+    font-family:oswald, sans-serif;
+    font-size:35px;
+    text-align:right;
+    color:#384982;
+}
