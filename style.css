@@ -1,14 +1,60 @@
-    /***COULEURS BOUTONS***/
-.btn{background:#996840;
-    box-shadow:#3f2d0b 0 0 5px inset;
-color:#dbdbdb;}
+@font-face {
+    font-family: 'oswald';
+    src: url('oswald.eot');
+    src: url('oswald.otf') format('truetype'),
+         url('oswald.woff') format('woff'),
+         url('oswald.eot?#iefix') format('embedded-opentype'),
+         url('oswald.svg#QuadrantaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    a {
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        color:#384982;
+      }
+      
+      a:hover {
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+      }
+      
+      a:link,a:active,a:visited{
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+      }
+    /***COULEURS DE BASES***/
+body{
+    background:#E3E3E3;
+}
+nav{
+    background:#996840;
+}
+footer{
+    background:#996840;
+}   
+title{
+    color:#384982;
+}
 
-.btn:hover{background:#996840;
+   /***COULEURS BOUTONS***/
+.btn{
+    background:#996840;
+    box-shadow:#3f2d0b 0 0 5px inset;
+    color:#DBDBDB;
+}
+
+.btn:hover{
+    background:#996840;
     box-shadow:#3f2d0b 0 0 15px inset;
     transition:1s;
-    color:#e9e8e8;
-    text-shadow:#e9e8e8 0 2px 2;
-    letter-spacing:1px;}
+    color:#fdfdfd;
+    text-shadow:#fdfdfd 0 0 2px;
+    letter-spacing:1px;
+}
     /**FIN COULEURS BOUTONS***/
 
     /***COULEUR SELECTION TEXTE***/
@@ -33,7 +79,30 @@ color:#dbdbdb;}
 }
 
 ::-o-selection{
-background: #af631cbd;
+    background: #af631cbd;
     color: #bfbfbf;
 }
 /***FIN COULEUR SÉLECTION TEXTE***/
+
+.cardright-img{
+    float:right;
+    width:275px;
+    height:225px;
+}
+
+.card-img{    
+    width:275px;
+    height:225px;}
+
+.titre_caté1{
+    font-family:oswald, sans-serif;
+    font-size:35px;
+    text-align:left;
+    color:#384982;
+}
+.titre_caté2{ 
+    font-family:oswald, sans-serif;
+    font-size:35px;
+    text-align:right;
+    color:#384982;
+}
