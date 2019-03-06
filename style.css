@@ -1,4 +1,3 @@
-
 .deplacer{
     position: absolute;
     top: -220%;
@@ -9,4 +8,7 @@
 .cross{
     position: absolute;
     right:0%;
+}
+i{
+    font-size: 1.6em;
 }
