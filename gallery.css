@@ -1,24 +1,22 @@
-*{font-family: 'Cabin Condensed', sans-serif;
+*{font-family: 'Open Sans', sans-serif;
 -webkit-user-select: none;}
 
 body{background:#e3e3e3;}
 
 nav{background:#996840;
-border-bottom:2px solid #50566b;
+border-bottom:2px solid #fdfdfd;
 }
 
 footer{background:#996840;
-border-top:2px solid #50566b;
+border-top:2px solid #fdfdfd;
 }
 
-h1{color:#50566b;}
-h5{color:#50566b;}
+h1{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+h5{color:#50566b;
+font-family: 'Oswald', sans-serif;}
 
-.deco{background: #996840;
-  border: 2px solid #50566b;
-}
 
-.dropdown-item:hover{background:transparent;}
 
 
 a{text-decoration: none !important;
@@ -36,6 +34,14 @@ a:hover {
   transition:0.8s ease;
   color:#F3F1F1 !important;
   }
+
+.deco{background: #e3e3e3;
+  border: 2px solid #fdfdfd;
+}
+
+.dropc{color: #50566b !important;}
+
+.dropdown-item:hover{background:#996840;}
 
 .fleche {
   background:transparent;
@@ -55,7 +61,7 @@ border:2px solid #50566b;
 border-radius:5%;
 transition:0.6s ease;
 }
-.imgc:hover{border:2px solid white;
+.imgc:hover{border:2px solid #fdfdfd;
 border-radius:10%;}
 
 .hamber{
@@ -85,7 +91,7 @@ border-radius:10%;}
 }
 
 .modal-content {
-  border:2px solid #DBDBDB;
+  border:1px solid #DBDBDB;
   border-radius:5%;
   margin: auto;
   display: block;
