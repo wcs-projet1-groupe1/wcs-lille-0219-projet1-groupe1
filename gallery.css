@@ -5,7 +5,21 @@ body{background:#e3e3e3;}
 
 nav{background:#996840;
 border-bottom:2px solid #fdfdfd;
+top:0px;
+width: 100%;
+z-index: 100;
 }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 70px;
+  }
+
 
 footer{background:#996840;
 border-top:2px solid #fdfdfd;
@@ -56,6 +70,8 @@ a:hover {
 margin-top:5px;
 }
 
+.acolor{margin-bottom:1px;}
+
 .imgc{margin-bottom:2vh;
 border:2px solid #50566b;
 border-radius:5%;
@@ -66,6 +82,7 @@ border-radius:10%;}
 
 .hamber{
   background:#F3F1F1;
+  border:2px solid #fdfdfd !important;
 }
 
 #myImg {
@@ -79,7 +96,7 @@ border-radius:10%;}
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 900;
   padding-top: 100px;
   left: 0;
   top: 0;

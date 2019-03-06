@@ -325,4 +325,18 @@
     const _C = document.querySelector('.mobile'), 
       N = _C.children.length;
 
-    _C.style.setProperty('--n', N)
+_C.style.setProperty('--n', N)
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+navbar.classList.add("sticky")
+} else {
+navbar.classList.remove("sticky");
+}
+}
