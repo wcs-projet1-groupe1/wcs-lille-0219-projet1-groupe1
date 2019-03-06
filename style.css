@@ -1,0 +1,14 @@
+.deplacer{
+    position: absolute;
+    top: -220%;
+    z-index:1;
+    visibility:hidden;
+}
+
+.cross{
+    position: absolute;
+    right: 0%;
+}
+p{
+    text-align: justify;
+}
