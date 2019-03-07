@@ -8,16 +8,14 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>AgTech</title>
-    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
-    <script type="text/javascript">
+    <title>Eurasanté</title>
+    <script src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+    <script>
       function showImage1(){
         document.getElementById('loadingImage1').style.visibility='visible';
         document.getElementById('loadingImage2').style.visibility='hidden';
-        document.getElementById('loadingImage3').style.visibility='hidden';
         document.getElementById('loadingImage4').style.visibility='hidden';
         document.getElementById('loadingImage5').style.visibility='hidden';
-        document.getElementById('loadingImage6').style.visibility='hidden';
       }
       function hideImage1(){
         document.getElementById('loadingImage1').style.visibility='hidden';
@@ -25,32 +23,17 @@
       function showImage2(){
         document.getElementById('loadingImage2').style.visibility='visible';
         document.getElementById('loadingImage1').style.visibility='hidden';
-        document.getElementById('loadingImage3').style.visibility='hidden';
         document.getElementById('loadingImage4').style.visibility='hidden';
         document.getElementById('loadingImage5').style.visibility='hidden';
-        document.getElementById('loadingImage6').style.visibility='hidden';
       }
       function hideImage2(){
         document.getElementById('loadingImage2').style.visibility='hidden';
       }
-      function showImage3(){
-        document.getElementById('loadingImage3').style.visibility='visible';
-        document.getElementById('loadingImage2').style.visibility='hidden';
-        document.getElementById('loadingImage1').style.visibility='hidden';
-        document.getElementById('loadingImage4').style.visibility='hidden';
-        document.getElementById('loadingImage5').style.visibility='hidden';
-        document.getElementById('loadingImage6').style.visibility='hidden';
-      }
-      function hideImage3(){
-        document.getElementById('loadingImage3').style.visibility='hidden';
-      }
       function showImage4(){
         document.getElementById('loadingImage4').style.visibility='visible';
         document.getElementById('loadingImage2').style.visibility='hidden';
-        document.getElementById('loadingImage3').style.visibility='hidden';
         document.getElementById('loadingImage1').style.visibility='hidden';
         document.getElementById('loadingImage5').style.visibility='hidden';
-        document.getElementById('loadingImage6').style.visibility='hidden';
       }
       function hideImage4(){
         document.getElementById('loadingImage4').style.visibility='hidden';
@@ -58,24 +41,11 @@
       function showImage5(){
         document.getElementById('loadingImage5').style.visibility='visible';
         document.getElementById('loadingImage2').style.visibility='hidden';
-        document.getElementById('loadingImage3').style.visibility='hidden';
         document.getElementById('loadingImage4').style.visibility='hidden';
         document.getElementById('loadingImage1').style.visibility='hidden';
-        document.getElementById('loadingImage6').style.visibility='hidden';
       }
       function hideImage5(){
         document.getElementById('loadingImage5').style.visibility='hidden';
-      }
-      function showImage6(){
-        document.getElementById('loadingImage6').style.visibility='visible';
-        document.getElementById('loadingImage2').style.visibility='hidden';
-        document.getElementById('loadingImage3').style.visibility='hidden';
-        document.getElementById('loadingImage4').style.visibility='hidden';
-        document.getElementById('loadingImage5').style.visibility='hidden';
-        document.getElementById('loadingImage1').style.visibility='hidden';
-      }
-      function hideImage6(){
-        document.getElementById('loadingImage6').style.visibility='hidden';
       }
 
     </script>
@@ -121,7 +91,7 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-          
+
         </ul>
       </div>
     </nav>
@@ -129,64 +99,59 @@
 <!--Début contenu-->
         <div class="card">
             <div class="card-header">
-                <h1 class="text-center">AgTech</h1>
+                <h1 class="text-center">Eurasanté</h1>
             </div>
             <div class="card-body">
                 <div class="container">                         
                     <div class="row">
                         <div class="col-sm p-3">
-                            <h3 class="card-title">Connected Agriculture</h3>
-                            <p>AgTech is an incubator and a start-up accelerator dedicated to AgTech project developers in Willems, located 20 min from Lille (connected agriculture, precision agriculture, permaculture). This incubator aims at helping the best possible conceptualization for project leaders by involving all stakeholders in the sector: farmers, researchers, Chambers of Agriculture, cooperatives, schools, universities, laboratories, builders …</p>
+                            <h3 class="card-title">Tech transfer and business development in life sciences sector</h3>
+                            <p>Eurasanté is an incubator, a technology transfer tool and a cluster manager in the biotech, medtech, nutrition and healthcare fields in Northern France. It assists French and foreign companies, entrepreneurs, scientists and clinicians with their innovations and development projects.</p>
                         </div>
                         <div class="col-sm p-3">
-                            <img src="http://www.agtechinsight.com/wp-content/uploads/2016/10/agtechinsight-logo.png" alt="Agtech" class="logo"> 
+                            <img src="https://www.staminic.com/images/clients-logos/eurasante.png" alt="Eurasanté" class="w-75"> 
                         </div>
                     </div>
                     <h3>Some Company</h3>
                     <div class="row">
                         <div class="col-sm p-3">
                             <div class="list-group">
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage1();">Sencrop<i class="far fa-eye float-right"></i></a>
+                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage1();">OCR<i class="far fa-eye float-right"></i></a>
                                 <div class="deplacer" id="loadingImage1">
                                     <div class="card" style="width:15rem;">
                                         <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage1();"></a>
-                                        <img class="card-img-top" src="https://www.euratechnologies.com/content/uploads/2016/11/sencrop-logo-150x150.png" alt="Card image cap">
+                                        <img class="card-img-top" src="http://www.oncovet-clinical-research.com/wp-content/uploads/2015/12/logo.png" alt="Card image cap">
                                         <div class="card-body">
-                                          <h5 class="card-title">Sencrop</h5>
-                                          <p class="card-text">Sencrop made a mobile app, linked in real time to agro-weather stations and sensors all over the field so it can helps daily to decide what to do thanks to ultra-local datas from the field.
+                                          <h5 class="card-title">OCR</h5>
+                                          <p class="card-text">OCR works with pharmaceutical partners – Human health – for the
+                                            cost-effective design and management of clinical trials in dogs and cats
+                                            with spontaneous diseases, as well as in vitro/ex-vivo studies.<br>
+                                            
+                                            This mission and innovative approach helps to advance the R&D process
+                                            for new drug candidates and medical devices for humans
+                                            in a variety of therapeutic areas including :
+                                            <br>– Oncology
+                                            <br>– Cardiology
+                                            <br>– Neurology
+                                            <br>– Inflammation
                                           </p>
                                           <div class="p-3">
-                                            <a href="https://www.euratechnologies.com/entreprises/sencrop/" class="btn w-100" target="_blank">Discover</a>
+                                            <a href="http://www.oncovet-clinical-research.com/" class="btn w-100" target="_blank">Discover</a>
                                           </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage2();">Karnot<i class="far fa-eye float-right"></i></a>
+                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage2();">GENFIT<i class="far fa-eye float-right"></i></a>
                                 <div class="deplacer" id="loadingImage2">
                                     <div class="card" style="width:15rem;">
                                         <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage2();"></a>
-                                        <img class="card-img-top" src="https://www.euratechnologies.com/content/uploads/2017/06/18922491_558369671219108_930435682804423958_o-150x150.png" alt="Card image cap">
+                                        <img class="card-img-top" src="https://www.genfit.fr/wp-content/uploads/2014/02/genfit.jpg" alt="Card image cap">
                                         <div class="card-body">
-                                            <h5 class="card-title">Karnott</h5>
-                                            <p class="card-text">Karnott is an electronic box that aims at replace traditionnal  farmer’s note books. this box helps collectiong a lot of datas : agricultural machin’s tracking, Working time calculation, distance covered, working area..
+                                            <h5 class="card-title">GENFIT</h5>
+                                            <p class="card-text">GENFIT is a biopharmaceutical company conducting advanced clinical trials whose purpose is the discovery and development of innovative candidate drugs and diagnostic solutions. We target metabolic diseases and associated liver diseases; pathologies for which significant medical needs remain unmet due to a lack of approved treatments.
                                             </p>
                                             <div class="p-3">
-                                              <a href="https://www.karnott.fr/" class="btn w-100" target="_blank">Discover</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage3();">WEENAT<i class="far fa-eye float-right"></i></a>
-                                <div class="deplacer" id="loadingImage3">
-                                    <div class="card" style="width:15rem;">
-                                        <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage3();"></a>
-                                        <img class="card-img-top" src="https://www.euratechnologies.com/content/uploads/2018/07/weenat-150x150.jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">WEENAT</h5>
-                                            <p class="card-text">Weenat aimes at giving an access and capitalize the nature’s data to accelerate the decision-making and reduce bad impacts the closest from the real life possible. This solution is based on wireless low energy sensors and an online services plateform.
-                                            </p>
-                                            <div class="p-3">
-                                              <a href="https://www.euratechnologies.com/entreprises/weenat/" class="btn w-100" target="_blank">Discover</a>
+                                              <a href="https://www.genfit.fr/" class="btn w-100" target="_blank">Discover</a>
                                             </div>
                                         </div>
                                     </div>
@@ -195,47 +160,32 @@
                         </div>
                         <div class="col-sm p-3">
                             <div class="list-group">
-                              <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage4();">Chouette<i class="far fa-eye float-right"></i></a>
+                              <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage4();">DIAGAST<i class="far fa-eye float-right"></i></a>
                               <div class="deplacer" id="loadingImage4">
                                   <div class="card" style="width:15rem;">
                                       <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage4();"></a>
-                                        <img class="card-img-top" src="https://www.euratechnologies.com/content/uploads/2018/09/chouette-logo-150x150.png" alt="Card image cap">
+                                        <img class="card-img-top" src="https://www.diagast.com/images/logo.gif" alt="Card image cap">
                                         <div class="card-body">
-                                            <h5 class="card-title">Chouette</h5>
-                                            <p class="card-text">Chouette is making its own drones et and distributes a turnkey solution for winegrowers who wish to know them vinyards better : Detecting diseases apparition (Mildiou, ESCA,Flavescence) and analyse  vines strenght so they can manage their vines precisely.
+                                            <h5 class="card-title">DIAGAST</h5>
+                                            <p class="card-text">Receiving blood is receiving life. DIAGAST’s goal is to help healthcare professionals transmit life with the help of the best blood group determination technologies. Even though it is not always a matter of life and death, transfusion errors are never acceptable.
                                             </p>
                                             <div class="p-3">
-                                              <a href="https://www.chouette.vision/" class="btn w-100" target="_blank">Discover</a>
+                                              <a href="https://www.diagast.com/page/28/Home" class="btn w-100" target="_blank">Discover</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage5();">Agrikolis<i class="far fa-eye float-right"></i></a>
+                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage5();">HMS & VILGO<i class="far fa-eye float-right"></i></a>
                                 <div class="deplacer" id="loadingImage5">
                                     <div class="card" style="width:15rem;">
                                         <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage5();"></a>
-                                        <img class="card-img-top" src="https://www.euratechnologies.com/content/uploads/2018/09/Agrikolis-logo-150x150.png" alt="Card image cap">
+                                        <img class="card-img-top" src="https://www.hms-vilgo.com/img/logo_en.png" alt="Card image cap">
                                         <div class="card-body">
-                                            <h5 class="card-title">Agrikolis</h5>
-                                            <p class="card-text">Agrikolis puts packages pick up points in farm holdings so it will be easier to manage heavy an big packages for websites. Agrikolis set this way a new way to earn money for farmers.
+                                            <h5 class="card-title">HMS & VILGO</h5>
+                                            <p class="card-text">HMS and VILGO hold innovation and development as priorities when they conceive products for the home care and nursing homes market. Products including Home care beds, hoists and a complete range of medical devices for differently-abled people, are manufactured at our facilities in France.
                                             </p>
                                             <div class="p-3">
-                                              <a href="http://agrikolis.com/" class="btn w-100" target="_blank">Discover</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage6();">Samsys<i class="far fa-eye float-right"></i></a>
-                                <div class="deplacer" id="loadingImage6">
-                                    <div class="card" style="width:15rem;">
-                                        <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage6();"></a>
-                                        <img class="card-img-top" src="https://www.euratechnologies.com/content/uploads/2018/09/Samsys-logo-150x150.png" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Samsys</h5>
-                                            <p class="card-text">Samsys developps a connected tool for agricultural machins. This connected and innovating tool allows the tracking of every works, so it can reduce charges and helps the farmers having a good sight of what each fields costs.
-                                            </p>
-                                            <div class="p-3">
-                                              <a href="https://samsys.fr/" class="btn w-100" target="_blank">Discover</a>
+                                              <a href="https://www.hms-vilgo.com/en/" class="btn w-100" target="_blank">Discover</a>
                                             </div>
                                         </div>
                                     </div>
