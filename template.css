@@ -1,0 +1,25 @@
+nav{background:#996840;
+border-bottom:2px solid #fdfdfd;
+top:0px;
+width: 100%;
+z-index: 100;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 70px;
+  }
+
+#footerc{background:#996840;
+border-top:2px solid #fdfdfd;
+position: relative;
+bottom:0px;
+}
+.nav-item{
+  z-index: 1000010 ;
+}

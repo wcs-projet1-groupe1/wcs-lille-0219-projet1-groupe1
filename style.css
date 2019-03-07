@@ -30,9 +30,32 @@
 body{
     background:#E3E3E3;
 }
-nav{
-    background:#996840;
-}
+nav{background:#996840;
+    border-bottom:2px solid #fdfdfd;
+    top:0px;
+    width: 100%;
+    z-index: 100;
+    }
+    
+    .sticky{
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    .sticky + .content {
+        padding-top: 70px;
+      }
+    
+    #footerc{background:#996840;
+    border-top:2px solid #fdfdfd;
+    position: absolute;
+    bottom:0px;
+    }
+    .nav-item{
+      z-index: 1000010 ;
+    }
+
 footer{
     background:#996840;
 }   
@@ -86,12 +109,12 @@ title{
 
 .cardright-img{
     float:right;
-    width:275px;
+    padding:5px;
     height:225px;
 }
 
 .card-img{    
-    width:275px;
+    padding:5px;
     height:225px;}
 
 .titre_caté1{
