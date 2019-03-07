@@ -13,15 +13,23 @@
     display: block;
 }
 
-ul li {display:table-cell;}
-
-ul {
+.naveura ul {
 list-style: none;
 margin: 0;
-padding:2px;} 
+padding:2px;
+} 
+
+.container ul{
+  list-style: square;
+  padding: 15px;
+}
 
 .card-euratech{
-    background-color:#aaeda1 !important;
+  background-color:#aaeda1 !important;
+}
+
+#squarelist{
+  list-style:square;
 }
 
 @media (max-width: 1520px) {
